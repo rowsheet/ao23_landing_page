@@ -1,4 +1,4 @@
-REPO_NAME=web_base
+REPO_NAME=ao23_landing_page
 SERVICE_NAME=dev--$REPO_NAME
 echo REPO_NAME:$REPO_NAME
 echo SERVICE_NAME:$SERVICE_NAME
@@ -19,6 +19,6 @@ source ./creds
 
 docker service create \
     --env PORT="$PORT" \
-    --publish 8005:80 \
+    --publish 8100:80 \
     --name $SERVICE_NAME \
     rowsheet/$REPO_NAME:dev
