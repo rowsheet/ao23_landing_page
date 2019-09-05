@@ -1,5 +1,3 @@
-# Web Base
+# AO23 Landing Page 
 
-Base webpage Landing page (using NodeJS and expressJS).
-
-### By Rowsheet
+AO23 Landing Page (forked from [web_base](https://github.com/rowsheet/web_base)).
